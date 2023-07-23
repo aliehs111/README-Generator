@@ -41,16 +41,18 @@ const questions = [
         name: "linkedin"
     }
 ];
-inquirer.prompt(questions).then(function(data) {
-    console.log(data);
-    writeToFile("README.md", data);
-    console.log("Successfully wrote to README.md");
-});
+
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+// function writeToFile(fileName, data) {}
 
 // TODO: Create a function to initialize app
-function init() {}
+function init() {
+    inquirer.prompt(questions).then(function(data) {
+        console.log(data);
+        writeToFile("README.md", data);
+        console.log("Successfully wrote to README.md");
+    });      
+}
 
 // Function call to initialize app
 init();
