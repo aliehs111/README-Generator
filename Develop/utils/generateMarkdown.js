@@ -53,6 +53,9 @@ function generateMarkdown(data) {
   * [Tests](#tests)
   * [License](#license)
   * [Github](#github)
+  * [Resources and Contributors](#resources-and-contributors)
+  * [LinkedIn](#linkedin)
+  * [Email](#email)
 
   ## Installation
   ${data.installation}
@@ -61,9 +64,14 @@ function generateMarkdown(data) {
   ## Tests
   ${data.test}
   ${renderLicenseSection(data.license)}
-  ${renderLicenseLink(data.license)}
   ## Github Repository
   ${data.github}
+  ## Resources and Contributors
+  ${data.contribution}
+  ## LinkedIn
+  ${data.linkedin}
+  ## Email
+  ${data.email}
 
 
 `;

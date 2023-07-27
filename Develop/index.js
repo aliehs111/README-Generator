@@ -22,7 +22,7 @@ const questions = [
         name: "usage"
     }, {
         type: "input",
-        message: "What is your project contribution guidelines?",
+        message: "Please list any contributors or resources you'd like to credit?",
         name: "contribution"
     }, {
         type: "input",

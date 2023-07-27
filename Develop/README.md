@@ -1,7 +1,7 @@
-# sss
-  [![License: Apache](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+# Readme Starter App
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   ## Description
-  sss
+  An application using node.js and inquirer that creates a readme document based on user input
   ## Table of Contents
   * [Installation](#installation)
   * [Usage](#usage)
@@ -10,15 +10,20 @@
   * [Github](#github)
 
   ## Installation
-  ss
+  please make sure to install node.js and npm.  open an integrated terminal in the index.js file, then run node index.js 
   ## Usage
-  ss
+  to be used by busy developers who need to produce a basic readme file for their application
   ## Tests
-  sss
+  not applicable
   ## License
-   This project is licensed under the [Apache](https://opensource.org/licenses/Apache-2.0) license.
-  [Apache](https://opensource.org/licenses/Apache-2.0)
+   This project is licensed under the [MIT](https://opensource.org/licenses/MIT) license.
   ## Github Repository
-  sss
+  aliehs111
+  ## Resources and Contributors
+  class videos
+  ## LinkedIn
+  xxxx
+  ## Email
+  smcgov11.11@gmail.com
 
 
