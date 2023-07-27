@@ -40,6 +40,11 @@ const questions = [
         type: "input",
         message: "What is the link to your deployed app?",
         name: "linkedin"
+    }, {
+        type: "list",
+        message: "What is your project license?",
+        name: "license",
+        choices: ["MIT", "Apache", "GNU", "None"]
     }
 ];
 

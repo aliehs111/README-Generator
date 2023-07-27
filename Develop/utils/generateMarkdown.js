@@ -5,7 +5,7 @@ function renderLicenseBadge(license) {
     case "MIT":
       return "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)";
     case "Apache":
-      return "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)";
+      return "[![License: Apache](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)";
     case "GNU":
       return "[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)";
 
@@ -36,7 +36,8 @@ function renderLicenseSection(license) {
    This project is licensed under the ${renderLicenseLink(license)} license.`;
   }
   else {
-    return "";
+    return `## License
+    This project is not licensed.`;
   }
 };
 
@@ -50,8 +51,8 @@ function generateMarkdown(data) {
   * [Installation](#installation)
   * [Usage](#usage)
   * [Tests](#tests)
-  * [License] (#license)
-  * [Contribution] (#contribution)
+  * [License](#license)
+  * [Github](#github)
 
   ## Installation
   ${data.installation}
@@ -59,9 +60,9 @@ function generateMarkdown(data) {
   ${data.usage}
   ## Tests
   ${data.test}
-  ## License
   ${renderLicenseSection(data.license)}
-  ## Contribution
+  ${renderLicenseLink(data.license)}
+  ## Github Repository
   ${data.github}
 
 
